@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.nirajbyanju.com.np/sitemap2.xml
