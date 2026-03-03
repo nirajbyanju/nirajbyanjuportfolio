@@ -1,9 +1,9 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "About | Alvalens",
+  title: "About | Niraj Byanju",
   description:
-    "Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of Intervyou. Computer Science graduate from Universitas Negeri Malang.",
+    "Product-Minded Software Engineer specializing in Next.js, larave, React js. Founder & CTO of Opprotunities Sharing. Inforamation Technology graduate from Nilai University.",
 };
 export default function Layout({ children }) {
   return (

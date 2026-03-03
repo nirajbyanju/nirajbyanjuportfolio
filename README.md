@@ -1,4 +1,4 @@
-# Alvalens Portfolio
+# Niraj Portfolio
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
 
@@ -128,4 +128,4 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 
 This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.
 
-Copyright (C) 2025 Alvalen Shafelbilyunazra
+Copyright (C) 2025 Niraj Byanju

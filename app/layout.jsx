@@ -24,38 +24,40 @@ const jost = Jost({
 });
 
 export const metadata = {
-	metadataBase: new URL("https://www.alvalens.my.id"),
-	title: "Alvalens | Portofolio",
+	metadataBase: new URL("https://nirajbyanju.com.np"),
+	title: "Niraj | Portofolio",
 
 	description:
-		"Alvalen, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of Intervyou.",
+		"Niraj, Product-Minded Software Engineer specializing in Next.js, Spring Boot, and AI Solutions. Founder & CTO of Intervyou.",
 
-	author: "Alvalen Shafelbilyunazra",
-	siteUrl: "https://www.alvalens.my.id",
-	applicationName: "Alvalens",
+	author: "Niraj Byanju",
+	siteUrl: "https://nirajbyanju.com.np",
+	applicationName: "Niraj Byanju",
 
 	keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"niraj",
+		"neeraj",
+		"niraj byanju",
+		"niraj",
+		"niraj byanju",
+		"Niraj Byanju",
+		"neeraj",
+		"neeraj byanju",
+		"neeraj byanju",
+		"samriddhi real estate",
+		"opportunities sharing",
 	],
 
 	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		siteName: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://www.nirajbyanju.com.np",
+		title: "Niraj Byanju",
+		siteName: "Niraj | Portofolio",
+		description: "My name is Niraj, This is my portofolio website.",
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Niraj Portofolio",
 				width: 1200,
 				height: 630,
 			},
@@ -66,8 +68,8 @@ export const metadata = {
 const jsonLd = {
 	"@context": "https://schema.org",
 	"@type": "Person",
-	name: "Alvalen Shafelbilyunazra",
-	url: "https://www.alvalens.my.id",
+	name: "Niraj Byanju",
+	url: "https://www.nirajbyanju.com.np",
 	jobTitle: "Full Stack Software Engineer",
 	worksFor: [
 		{ "@type": "Organization", name: "MGG Software" },
@@ -78,9 +80,9 @@ const jsonLd = {
 		name: "Universitas Negeri Malang",
 	},
 	sameAs: [
-		"https://github.com/Alvalens",
-		"https://www.linkedin.com/in/alvalen-shafel-8a081a254/",
-		"https://www.instagram.com/alvalens_/",
+		"https://github.com/NirajByanju",
+		// "https://www.linkedin.com/in/alvalen-shafel-8a081a254/",
+		// "https://www.instagram.com/alvalens_/",
 	],
 };
 

@@ -1,5 +1,5 @@
 // Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// This file is part of Niraj-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -7,11 +7,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-snap";
+import { FullPageWrapper, Section, useFullPage } from "@Niraj/react-fullpage-snap";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/alvalen-front.webp";
+import Me from "@/public/image/nirajbyanju.png";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
@@ -81,7 +81,7 @@ const MyPage = () => {
 									width={500}
 									height={500}
 									className="rounded-full w-full h-full object-cover "
-									alt="Alvalens"
+									alt="Niraj"
 									placeholder="blur"
 								/>
 							</div>
@@ -94,7 +94,7 @@ const MyPage = () => {
 								delay: 0.2,
 								type: "spring",
 							}}>
-							Alvalen Shafel
+							Niraj Byanju
 						</motion.h3>
 						<motion.h1
 							className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -114,7 +114,7 @@ const MyPage = () => {
 								delay: 0.4,
 								type: "spring",
 							}}>
-							Hi! I&rsquo;am Alvalen, A fullstack software
+							Hi! I&rsquo;am Niraj, A fullstack software
 							engineer specializing in modern Web Development with
 							a growing focus on Artificial Intelligence. I
 							architect scalable, production-ready engines—from
@@ -157,7 +157,7 @@ const MyPage = () => {
 								width={400}
 								height={550}
 								placeholder="blur"
-								alt="Alvalens"
+								alt="Niraj"
 								className="rounded-full w-full h-full object-cover"
 							/>
 						</div>
@@ -190,7 +190,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens"
+								alt="Niraj"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -258,7 +258,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens Setup"
+								alt="Niraj Setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -329,7 +329,7 @@ const MyPage = () => {
 								fill
 								sizes="(max-width: 768px) 80vw, 30vw"
 								className="object-cover"
-								alt="Alvalens Setup"
+								alt="Niraj Setup"
 								placeholder="blur"
 							/>
 						</motion.div>
@@ -367,14 +367,14 @@ const MyPage = () => {
 								delay: 0.3,
 								type: "spring",
 							}}>
-							<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-								alvalen.shafel04@gmail.com
+							<a href="mailto:niraj.byanju1234@gmail.com?subject=Hello&body=Hello Niraj,">
+								niraj.byanju1234@gmail.com
 							</a>
 						</motion.p>
 						{/* icons */}
 						<div className="flex justify-center items-center space-x-4">
 							<motion.a
-								href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+								href="mailto:niraj?subject=Hello&body=Hello Niraj,"
 								aria-label="Send email"
 								className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 								initial={{ y: 40, opacity: 0 }}
@@ -390,7 +390,7 @@ const MyPage = () => {
 							</motion.a>
 
 							<motion.a
-								href="https://github.com/Alvalens"
+								href="https://github.com/Niraj"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="GitHub profile"
@@ -407,7 +407,7 @@ const MyPage = () => {
 								/>
 							</motion.a>
 							<motion.a
-								href="https://www.instagram.com/alvalens_/"
+								href="https://www.instagram.com/Niraj_/"
 								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="Instagram profile"
