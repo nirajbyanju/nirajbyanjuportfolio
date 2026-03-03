@@ -41,8 +41,10 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "15.2.9",
+    "@types/node": "^25.3.3",
     "@types/react": "19.1.5",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "typescript": "^5.9.3"
   },
   "pnpm": {
     "overrides": {

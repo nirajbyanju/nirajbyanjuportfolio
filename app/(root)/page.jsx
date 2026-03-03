@@ -28,6 +28,7 @@ function ScrollIndicator() {
 	const { activeIndex } = useFullPage();
 	const [dismissed, setDismissed] = useState(false);
 
+
 	useEffect(() => {
 		if (activeIndex !== 0) setDismissed(true);
 	}, [activeIndex]);
@@ -63,6 +64,33 @@ function ScrollIndicator() {
 }
 
 const MyPage = () => {
+	const tagCounts = {
+		"github": 1,
+		"cpanel": 1,
+		"auto-deployment": 1,
+		"laragon": 1,
+		"xampp": 2,
+		"local-server": 1,
+		"roadmap": 1,
+		"html": 2,
+		"snippet": 2,
+		"docker": 2,
+		"mysql": 1,
+		"commands": 1,
+		"terminal": 1,
+		"ubuntu": 1
+	};
+
+	const sortedTags = Object.keys(tagCounts).sort(
+		(a, b) => tagCounts[b] - tagCounts[a]
+	);
+	const slug = (text) => {
+		return text
+			.toLowerCase()
+			.replace(/[^\w\s-]/g, '') // Remove special characters
+			.replace(/\s+/g, '-') // Replace spaces with hyphens
+			.replace(/-+/g, '-'); // Replace multiple hyphens with single hyphen
+	};
 	return (
 		<FullPageWrapper>
 			<Section>
@@ -137,6 +165,15 @@ const MyPage = () => {
 								<a href="#contact">Contact Me</a>
 							</Button>
 						</motion.div>
+						<div className="hidden sm:block mt-3">
+							{sortedTags.map((t) => (
+								<Link href={`/tags/${slug(t)}`} key={t}>
+									<span className="m-2 inline-block rounded-full border border-gray-600 px-3 py-1 text-sm font-medium text-gray-500 transition-all duration-300 hover:border-gray-400 hover:text-blue-600 hover:shadow-[0_0_10px_rgba(255,255,255,0.2)]">
+										{t.split(' ').join('-')}
+									</span>
+								</Link>
+							))}
+						</div>
 					</motion.div>
 					<motion.div
 						className="hidden md:flex col-span-1 mx-auto justify-center items-center "
