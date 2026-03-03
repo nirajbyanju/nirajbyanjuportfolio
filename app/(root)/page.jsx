@@ -11,7 +11,7 @@ import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/nirajbyanju.jpg";
+import Me from "@/public/image/nirajbyanju.png";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
@@ -114,12 +114,7 @@ const MyPage = () => {
 								delay: 0.4,
 								type: "spring",
 							}}>
-							Hi! I&rsquo;am Niraj, A fullstack software
-							engineer specializing in modern Web Development with
-							a growing focus on Artificial Intelligence. I
-							architect scalable, production-ready engines—from
-							high-traffic Java microservices to RAG-powered SaaS
-							platforms.
+							I'm a passionate software engineer with over 2 years of experience, specializing in larave, React.JS and Next JS. Dedicated to continuous learning, crafting scalable solutions, and delivering innovative projects with a focus on quality and performance.
 						</motion.p>
 						<motion.div
 							className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -151,14 +146,12 @@ const MyPage = () => {
 							delay: 0.7,
 							type: "spring",
 						}}>
-						<div className="rounded-full h-auto w-auto max-w-[26vw] lg:px-12 grayscale hover:grayscale-0 transition-all ease duration-300">
+						<div className="rounded  w-auto  hover:grayscale-10 hover:cursor-pointer transition-all ease duration-300">
 							<Image
 								src={Me}
-								width={400}
-								height={550}
 								placeholder="blur"
 								alt="Niraj"
-								className="rounded-full w-full h-full object-cover"
+								className=" "
 							/>
 						</div>
 					</motion.div>
@@ -168,7 +161,7 @@ const MyPage = () => {
 				<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 					<div className="z-0 mb-48 md:mb-0  md:absolute md:top-1/2  md:right-[10%] md:-translate-y-1/2">
 						<motion.div
-							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[60vh] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
+							className="relative bg-slate-300 rounded-sm h-[400px] md:h-[70vh] w-[80vw] md:w-[30vw]  hover:grayscale-30 hover:cursor-pointer"
 							initial={{
 								x: 300,
 								opacity: 0,
