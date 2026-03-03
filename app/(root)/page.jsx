@@ -142,7 +142,7 @@ const MyPage = () => {
 								delay: 0.4,
 								type: "spring",
 							}}>
-							I'm a passionate software engineer with over 2 years of experience, specializing in larave, React.JS and Next JS. Dedicated to continuous learning, crafting scalable solutions, and delivering innovative projects with a focus on quality and performance.
+							I &aposm a passionate software engineer with over 2 years of experience, specializing in larave, React.JS and Next JS. Dedicated to continuous learning, crafting scalable solutions, and delivering innovative projects with a focus on quality and performance.
 						</motion.p>
 						<motion.div
 							className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
