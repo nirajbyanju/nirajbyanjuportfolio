@@ -7,11 +7,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { FullPageWrapper, Section, useFullPage } from "@Niraj/react-fullpage-snap";
+import { FullPageWrapper, Section, useFullPage } from "@alvalens/react-fullpage-snap";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/nirajbyanju.png";
+import Me from "@/public/image/nirajbyanju.jpg";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
 import ProjectAll from "@/public/image/projects.png";
