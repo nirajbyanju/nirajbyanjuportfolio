@@ -114,46 +114,50 @@ export default function About() {
 						Niraj Byanju
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg leading-relaxed">
-						I am a{" "}
+						I am a dedicated{" "}
 						<span className="text-black font-medium">
-							Product-Minded Software Engineer{" "}
-						</span>
-						specialized in bridging the gap between{" "}
+							Full-Stack Web Developer
+						</span>{" "}
+						with practical experience in building and maintaining scalable web
+						applications using{" "}
 						<span className="text-black font-medium">
-							Modern Web Ecosystems and Enterprise Architectures
+							Laravel, React.js, and modern frontend tools
 						</span>
-						. A Computer Science graduate from{" "}
-						<span className="text-black font-medium">
-							Universitas Negeri Malang
-						</span>
-						, my professional journey is defined by high-stakes
-						projects, ranging from robust government-scale
-						microservices to sophisticated{" "}
-						<span className="text-black font-medium">
-							RAG-powered SaaS products{" "}
-						</span>
-						designed to bring the power of Generative AI to
-						end-users.
+						. I focus on delivering clean, efficient solutions and creating
+						responsive, user-friendly interfaces.
 						<br />
 						<br />
-						Currently, I engineer large-scale enterprise systems at{" "}
+						I have worked on projects like a{" "}
 						<span className="text-black font-medium">
-							MGG Software
-						</span>
-						, ensuring strict data compliance and high availability
-						for international clients. Simultaneously, I lead the
-						technical vision as the{" "}
+							Learning Management System
+						</span>{" "}
+						and an{" "}
 						<span className="text-black font-medium">
-							CTO of Intervyou
+							Opportunities Sharing Platform
 						</span>
-						, an AI-driven platform supported by the{" "}
+						, where I handled both frontend and backend development. On the
+						frontend, I built responsive UI using Bootstrap, Tailwind, and React,
+						while integrating APIs using Axios and managing state efficiently
+						with Zustand.
+						<br />
+						<br />
+						On the backend, I used{" "}
 						<span className="text-black font-medium">
-							Google for Startups Cloud Program and NVIDIA
-							Inception
+							Laravel
+						</span>{" "}
+						to develop secure APIs, manage databases, and implement business logic.
+						I also have experience with{" "}
+						<span className="text-black font-medium">
+							MySQL, Git, CI/CD, and deployment
 						</span>
-						. I remain dedicated to delivering measurable business
-						value at the intersection of web technologies and
-						artificial intelligence.
+						, ensuring applications are reliable and performant. Additionally, I
+						use Figma for designing intuitive UI/UX and follow best practices for
+						testing and debugging.
+						<br />
+						<br />
+						I am continuously improving my skills in full-stack development and
+						system design, aiming to build impactful and scalable digital
+						products.
 					</p>
 					<Card />
 				</motion.div>
