@@ -166,14 +166,14 @@ export default function Education() {
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
 						<div className="font-medium text-lg mb-4">
-							2022 - Present
+							2020 - 2024
 						</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Universitas Negeri Malang
+								Nilai University
 							</h2>
 							<h3 className="text-md font-normal mb-3">
-								S1 Teknik Informatika | Computer Science
+								Bachelor in information Technology
 							</h3>
 							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -206,59 +206,34 @@ export default function Education() {
 							</div>
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
-									I graduated as one of the{" "}
+									I earned my{" "}
 									<span className="text-black font-medium">
-										Most Outstanding Students
+										Bachelor’s degree in Information Technology
 									</span>{" "}
 									from{" "}
 									<span className="text-black font-medium">
-										Universitas Negeri Malang
+										Nilai University, Nepal
 									</span>
-									, completing my Bachelor in{" "}
+									. The program gave me a strong foundation in software development,
+									database management, and system design. Throughout my studies, I
+									focused on applying theoretical knowledge to practical projects,
+									which helped me build the full‑stack development skills I use daily.
+									<br />
+									<br />
+									My education laid the groundwork for my current work as a{" "}
+									<span className="text-black font-medium">full‑stack developer</span>
+									, and I continue to refine my skills in{" "}
 									<span className="text-black font-medium">
-										Computer Science
+										Laravel, React, Next.js, and database optimization
 									</span>{" "}
-									with a perfect GPA. My academic journey
-									was defined by a balance of rigorous
-									technical research and high-stakes
-									execution.
-									<br />
-									<br />
-									As the{" "}
-									<span className="text-black font-medium">
-										Co-Lead of Google Developer Group on
-										Campus (GDGoC)
-									</span>
-									, I spearheaded technical initiatives and
-									mentored a community of developers. Beyond
-									the classroom, I secured multiple national
-									and international honors, including being a{" "}
-									<span className="text-black font-medium">
-										two-time PIMNAS Finalist and an
-										Indonesia Inventor Day Gold Medalist
-									</span>
-									.
-									<br />
-									<br />
-									My education served as the engineering
-									foundation for my current work in{" "}
-									<span className="text-black font-medium">
-										Enterprise Architecture
-									</span>{" "}
-									and{" "}
-									<span className="text-black font-medium">
-										AI Implementation
-									</span>
-									. I remain committed to bridging academic
-									innovation with production-ready, scalable
-									software solutions.
+									to deliver production‑ready solutions.
 								</p>
 							</div>
-							<div className="flex flex-wrap gap-2 mt-4 text-sm">
+							{/* <div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
 									GPA: 4 out of 4
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</motion.div>{" "}
 					{/* Achievements Section - Right */}
@@ -293,8 +268,8 @@ export default function Education() {
 												}}>
 												{/* Year indicator for first achievement of each year */}
 												{index === 0 ||
-												visibleAchievements[index - 1]
-													?.year !==
+													visibleAchievements[index - 1]
+														?.year !==
 													achievement.year ? (
 													<div className="flex items-center gap-3 mb-3 mt-2">
 														<div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
